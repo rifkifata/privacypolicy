@@ -5,55 +5,60 @@
     <title>Privacy Policy - Gold Notification</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body style="font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; color: #333;">
-    <h1>Privacy Policy</h1>
-    <p><strong>Last updated:</strong> 08 April 2026</p>
-    <p><strong>App name:</strong> Gold Notification</p>
+<body style="font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto;">
+    <h1>Privacy Policy for Gold Notification</h1>
+    <p><strong>Last updated:</strong> 14 April 2026</p>
 
     <h2>1. Introduction</h2>
-    <p>This privacy policy explains how we handle user information in our app “Gold Notification”. We respect your privacy and are committed to protecting it. This application provides real-time gold price tracking and push notification alerts.</p>
+    <p>Welcome to Gold Notification ("we", "our", "us"). We are committed to protecting your privacy. This Privacy Policy explains how we handle information in our application "Gold Notification" (the "App"). By using our App, you agree to the collection and use of information in accordance with this policy.</p>
 
     <h2>2. Information We Collect</h2>
-    <p>To provide the core functionality of the app, we collect the following anonymous data:</p>
+    <p>To provide and improve our service, we collect a limited amount of non-personally identifiable information:</p>
     <ul>
-        <li><strong>Device ID & FCM Token:</strong> When you use the Price Alert feature, we collect an anonymous Device Identifier and a Firebase Cloud Messaging (FCM) token. This is strictly used to send push notifications to your device when the gold price reaches your target.</li>
-        <li><strong>Alert Preferences:</strong> We store the target prices and conditions (e.g., price goes UP or DOWN) that you set within the app securely on our servers.</li>
+        <li><strong>Anonymous Installation ID (UUID):</strong> Upon first launch, the App generates a random, anonymous identifier (UUID) which is stored on your device. This ID is used solely to manage your price alerts on our server and is not linked to your identity. We do not collect hardware-based device IDs (like ANDROID_ID or IMEI).</li>
+        <li><strong>Firebase Cloud Messaging (FCM) Token:</strong> To send you the price alert notifications you set up, we collect and store your FCM registration token. This token is provided by Google and is necessary for the push notification functionality.</li>
     </ul>
-    <p>We <strong>do not</strong> collect, store, or require any personally identifiable information such as your name, email address, phone number, or physical location.</p>
 
-    <h2>3. Third-Party Services & Advertising</h2>
-    <p>Our app uses third-party services that may collect information used to identify you:</p>
+    <h2>3. How We Use Your Information</h2>
+    <p>The information we collect is used exclusively for the following purposes:</p>
     <ul>
-        <li><strong>Google AdMob:</strong> We use AdMob to display advertisements. AdMob may collect certain non-personal data (such as Advertising ID, device type, IP address, and ad interaction data) to serve relevant ads and evaluate ad performance.</li>
-        <li><strong>Google Firebase:</strong> We use Firebase to deliver push notifications securely to your device.</li>
+        <li>To register your device on our server so you can create and receive price alerts.</li>
+        <li>To send push notifications when a price target you have set is reached.</li>
+        <li>To troubleshoot and improve the functionality of our App.</li>
     </ul>
-    <p>For more information, please refer to Google’s privacy policy: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
 
-    <h2>4. Financial Data Disclaimer</h2>
-    <p>The gold price data displayed in this application is aggregated from publicly available global financial markets and third-party public sources. The data is provided "as is" strictly for general informational and educational purposes.</p>
-    <p>We do not guarantee the 100% accuracy, completeness, or timeliness of the data. The information provided in this app does not constitute financial, investment, or trading advice. The developer is not responsible or liable for any financial decisions or trading losses made based on the information provided in this app.</p>
+    <h2>4. Data Source and Disclaimer</h2>
+    <p>The financial data, including gold prices and currency exchange rates, displayed in the App is obtained through our backend system. Our system aggregates and processes this data from various reputable and publicly available global financial data providers. We strive for accuracy, but we do not guarantee the timeliness or correctness of the data. All information provided by the App is for <strong>informational purposes only</strong> and should not be considered as financial advice.</p>
 
-    <h2>5. Data Security & Retention</h2>
-    <p>Your alert preferences and anonymous Device ID are stored securely on our servers. If you delete an alert within the app, the data is permanently removed from our active database. Furthermore, if you uninstall the application, your FCM token becomes invalid, and our system will automatically clean up and remove your device data from our servers.</p>
+    <h2>5. Third-Party Services</h2>
+    <p>Our App utilizes the following third-party services:</p>
+    <ul>
+        <li><strong>Google AdMob:</strong> We use Google AdMob to display advertisements. AdMob may collect and process data (such as IP address, device identifiers, and ad interaction data) to provide personalized advertising. You can learn more about how Google handles data in its <a href="https://policies.google.com/technologies/ads" target="_blank">advertising policies</a>.</li>
+        <li><strong>Firebase Cloud Messaging (FCM):</strong> We use FCM to deliver push notifications. This service is part of the Google Firebase platform. Please refer to <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase's privacy policy</a> for more details.</li>
+    </ul>
 
     <h2>6. Permissions</h2>
-    <p>This app requires the following permissions to function properly:</p>
+    <p>The Gold Notification app requires the following permissions to function correctly:</p>
     <ul>
-        <li><strong>Internet Access:</strong> To fetch the latest gold prices and load advertisements.</li>
-        <li><strong>Notifications (Android 13+):</strong> To send you push notifications when your price alerts are triggered.</li>
+        <li><strong>INTERNET:</strong> To fetch price data from our servers and to load advertisements.</li>
+        <li><strong>POST_NOTIFICATIONS:</strong> (On Android 13 and above) To display price alert notifications on your device.</li>
     </ul>
 
-    <h2>7. Children’s Privacy</h2>
-    <p>Because this app deals with financial market data, it is not directed at children under the age of 13. We do not knowingly collect personal data from children. If you are a parent or guardian and believe your child has provided us with information, please contact us.</p>
+    <h2>7. Data Security</h2>
+    <p>We take the security of your information seriously. The Anonymous Installation ID and FCM Token are transmitted securely over HTTPS to our servers. We implement appropriate technical measures to protect your data against unauthorized access or disclosure.</p>
 
-    <h2>8. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy occasionally. When we do, we will revise the “Last updated” date at the top of this document. We recommend reviewing this policy periodically to stay informed about how we are protecting your information.</p>
+    <h2>8. Children's Privacy</h2>
+    <p>Our service is not intended for use by children under the age of 13. We do not knowingly collect any personally identifiable information from children. If you are a parent or guardian and you are aware that your child has provided us with information, please contact us so that we can take necessary action.</p>
 
-    <h2>9. Contact Us</h2>
-    <p>If you have any questions or concerns regarding this privacy policy, please contact us at:</p>
+    <h2>9. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date. You are advised to review this Privacy Policy periodically for any changes.</p>
+
+    <h2>10. Contact Us</h2>
+    <p>If you have any questions or concerns about this Privacy Policy, please contact us:</p>
     <ul>
-        <li><strong>Email:</strong> <a href="mailto:triwti@gmail.com">triwti@gmail.com</a></li>
-        <li><strong>Developer Name:</strong> How to Draw : Series</li>
+        <!-- PERHATIAN: Ganti dengan email dan nama developer Anda yang valid -->
+        <li><strong>Email:</strong> <a href="mailto:[GANTI_DENGAN_EMAIL_ANDA]">[GANTI_DENGAN_EMAIL_ANDA]</a></li>
+        <li><strong>Developer Name:</strong> [GANTI_DENGAN_NAMA_DEVELOPER_ANDA_DI_PLAYSTORE]</li>
     </ul>
 </body>
 </html>
